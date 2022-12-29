@@ -1,0 +1,22 @@
+object Versions {
+    const val kotlinGradlePlugin = "1.7.20"
+    const val kotlinSerialization = "1.6.0-RC"
+    const val paranoid = "0.3.7"
+    const val coreKTX = "1.7.0"
+    const val appcompat = "1.5.1"
+    const val material = "1.7.0"
+    const val constraintlayout = "2.1.4"
+    const val navigationFragmentKTX = "2.5.3"
+    const val navigationUIKTX = "2.5.3"
+
+    /**
+     * for unit test
+     * */
+    const val junit = "4.13.2"
+
+    /**
+     * for android test
+     * */
+    const val androidJunit = "1.1.4"
+    const val androidEspressoCore = "3.5.0"
+}
