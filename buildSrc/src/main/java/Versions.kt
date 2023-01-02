@@ -1,4 +1,5 @@
 object Versions {
+    const val koin = "3.2.0"
     const val kotlinGradlePlugin = "1.7.20"
     const val kotlinSerialization = "1.6.0-RC"
     const val paranoid = "0.3.7"

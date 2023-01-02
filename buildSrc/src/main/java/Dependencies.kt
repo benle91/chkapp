@@ -29,14 +29,16 @@ object Dependencies {
     private const val androidEspressoCore =
         "androidx.test.espresso:espresso-core:${Versions.androidEspressoCore}"
 
+    private const val koin = "io.insert-koin:koin-android:${Versions.koin}"
+    private const val koinNavigation = "io.insert-koin:koin-androidx-navigation:${Versions.koin}"
+    private const val koinTest = "io.insert-koin:koin-test:${Versions.koin}"
 
     val libDefault = listOf<String>(
-        coreKTX, appcompat, material, constraintlayout, navigationFragmentKTX, navigationUIKTX
+        coreKTX, appcompat, material, constraintlayout, navigationFragmentKTX, navigationUIKTX, koin, koinNavigation
     )
 
     val libUnitTest = listOf<String>(junit)
     val libAndroidTest = listOf<String>(androidJunit, androidEspressoCore)
-
 
 }
 

@@ -7,6 +7,17 @@ repositories {
     google()
     mavenCentral()
 }
+
+
+gradlePlugin {
+    plugins {
+        register("library-plugin") {
+            id = "library-plugin"
+            implementationClass = "LibraryPlugin"
+        }
+    }
+}
+
 dependencies {
     compileOnly(gradleApi())
     implementation(kotlin("gradle-plugin", version = "1.5.0"))
