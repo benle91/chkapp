@@ -9,6 +9,7 @@ object Versions {
     const val constraintlayout = "2.1.4"
     const val navigationFragmentKTX = "2.5.3"
     const val navigationUIKTX = "2.5.3"
+    const val retrofitVersion = "2.9.0"
 
     /**
      * for unit test

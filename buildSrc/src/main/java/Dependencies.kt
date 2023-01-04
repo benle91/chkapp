@@ -33,12 +33,20 @@ object Dependencies {
     private const val koinNavigation = "io.insert-koin:koin-androidx-navigation:${Versions.koin}"
     private const val koinTest = "io.insert-koin:koin-test:${Versions.koin}"
 
+    /**
+     * retrofit
+     * */
+    private const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofitVersion}"
+    private const val retrofitConverterGson = "com.squareup.retrofit2:converter-gson:${Versions.retrofitVersion}"
+    private const val loggingInterceptor = "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.10"
+
     val libDefault = listOf<String>(
         coreKTX, appcompat, material, constraintlayout, navigationFragmentKTX, navigationUIKTX, koin, koinNavigation
     )
 
     val libUnitTest = listOf<String>(junit)
     val libAndroidTest = listOf<String>(androidJunit, androidEspressoCore)
+    val libNetwork = listOf<String>(retrofit, retrofitConverterGson, loggingInterceptor)
 
 }
 
