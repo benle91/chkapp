@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "28746276499",
+    "project_id": "chkapp-1654a",
+    "storage_bucket": "chkapp-1654a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28746276499:android:80e58d353161b32e463766",
+        "android_client_info": {
+          "package_name": "hien.android.chk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28746276499-cvrpsvaen3agncu939or80o2n77ggpp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6gFWbBgcS90mhOD5IwemJkMb0I0Wc8UI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28746276499-cvrpsvaen3agncu939or80o2n77ggpp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
