@@ -5,6 +5,7 @@ plugins {
     id(AppConfig.PluginsDependencies.kotlinKapt)
     id(AppConfig.PluginsDependencies.kotlinSerialization)
     id(AppConfig.PluginsDependencies.paranoid)
+    id(AppConfig.PluginsDependencies.googleServices)
 }
 
 buildscript {

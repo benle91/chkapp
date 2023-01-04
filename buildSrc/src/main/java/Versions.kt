@@ -10,6 +10,7 @@ object Versions {
     const val navigationFragmentKTX = "2.5.3"
     const val navigationUIKTX = "2.5.3"
     const val retrofitVersion = "2.9.0"
+    const val firebaseBom = "31.1.1"
 
     /**
      * for unit test
