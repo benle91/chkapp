@@ -8,6 +8,7 @@ object Dependencies {
         "org.jetbrains.kotlin:kotlin-serialization:${Versions.kotlinSerialization}"
     const val paranoid = "io.michaelrocks:paranoid-gradle-plugin:${Versions.paranoid}"
     const val firebaseBom = "implementation platform('com.google.firebase:firebase-bom:${Versions.firebaseBom}')"
+    const val ktlint = "com.pinterest:ktlint:${Versions.ktlint}"
 
     /**
      * lib
